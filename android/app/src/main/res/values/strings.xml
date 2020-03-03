@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">React Pushnotifications</string>
+    <string name="title_activity_main">React Pushnotifications</string>
+    <string name="package_name">com.te4.push_notifications</string>
+    <string name="custom_url_scheme">com.te4.push_notifications</string>
+</resources>

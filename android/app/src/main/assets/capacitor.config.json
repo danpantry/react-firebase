@@ -1,0 +1,8 @@
+{
+  "appId": "com.te4.push_notifications",
+  "appName": "React Pushnotifications",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}

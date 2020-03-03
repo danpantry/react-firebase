@@ -1,0 +1,7 @@
+{
+  "name": "React Pushnotifications",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
