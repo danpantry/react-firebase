@@ -39,11 +39,14 @@ export class Home extends React.Component {
     // Show us the notification payload if the app is open on our device
     PushNotifications.addListener('pushNotificationReceived',
       (notification: PushNotification) => {
-        let notif = this.state.notifications;
-        notif.push({ id: notification.id, title: notification.title, body: notification.body })
-        this.setState({
-          notifications: notif
-        })
+        this.setState(prevState => {
+          return {
+            notifications: [
+              ...prevState.notifications,
+              { id: notification.id, title: notification.title, body: notification.body }
+            ]
+          }
+        });
       }
     );
 
